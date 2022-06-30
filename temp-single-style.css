@@ -1,0 +1,281 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: "Ubuntu";
+    font-size: 14px;
+    
+}
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, button {
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    border: 0;
+}
+:root {
+    --main-color: #007DB7;
+    --background: #ffffff;
+    --background-hover: #d1d7dc;
+    --btn: var(--main-color);
+    --btn-hover: #d1d7dc;
+    --input-border: #d1d7dc;
+    --text-light: #fff;
+    --text-dark: #000;
+}
+a {
+    background-color: transparent;
+    border-bottom: 1px dotted transparent;
+    text-decoration: none;
+    color: #000000;
+}
+img {
+    border-style: none;
+}
+li {
+    list-style: none;
+}
+h1 {
+    text-transform: uppercase;
+}
+
+
+
+
+/* LOGO */
+.logo-wrap {
+    background-color: var(--background);
+    align-items: center;
+    text-align: center;
+}
+.logo-wrap img {
+    margin: 20px;
+    width: 80px;
+}
+
+/* MENU */
+.menu-wrap {
+    position: sticky;
+    top: 0;
+}
+.menu-list {
+    justify-content: center;
+    display: flex;
+}
+.menu-list a:hover {
+    text-decoration: underline;
+    transition: 0.5ms;
+}
+.menu-item {
+    text-align: center;
+    width: 75px;
+    margin: 0 2%;
+}
+.menu-list li {
+    font: 400 18px 'Roboto', sans-serif;
+    list-style: none;
+}
+
+
+main {
+    margin: 0 100px;
+}
+
+/* Avatar */
+.avatar {
+    text-align: center;
+    margin: 0;
+}
+.avatar img {
+    background-color: antiquewhite;
+    height: 1944px;
+    width: 1728px;
+}
+
+.main-item {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+
+.about, .photos, .contacts {
+}
+/* Первая вкладка About*/
+.about {
+    /* background-color: rgb(222, 250, 215); */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.about-me {
+    line-height: 30px;
+    color: #000;
+    margin-right: 10%;
+}
+.about-me h1 {
+    line-height: 40px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.about-text {
+    font-size: 16px;
+}
+.about-photo {
+    float: right;
+}
+.about-photo img {
+    background-color: rgb(235, 250, 215);
+    max-height: 648px;
+    max-width: 432px;
+}
+
+
+/* Вторая вкладка ... */
+
+
+
+
+/* Третья вкладка Catalog */
+.photos {
+    /* background-color: rgb(215, 236, 250); */
+}
+.photos-list {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.photos-item {
+    margin: 10px 1%;
+}
+.photo-1 img {
+    width: 300px;
+    height: 400px;
+}
+.photo-2 img {
+    width: 350px;
+    height: 250px;
+}
+.photo-3 img {
+    width: 300px;
+    height: 300px;
+}
+.photo-4 img {
+    width: 350px;
+    height: 390px;
+}
+.photo-5 img {
+    width: 200px;
+    height: 300px;
+}
+.photo-6 img {
+    width: 300px;
+    height: 350px;
+}
+.photo-7 img {
+    width: 420px;
+    height: 320px;
+}
+.photo-8 img {
+    width: 270px;
+    height: 300px;
+}
+.photo-9 img {
+    width: 300px;
+    height: 420px;
+}
+.photo-10 img {
+    width: 300px;
+    height: 300px;
+}
+.photo-11 img {
+    width: 300px;
+    height: 450px;
+}
+.photo-12 img {
+    width: 400px;
+    height: 250px;
+}
+.photo-13 img {
+    width: 350px;
+    height: 500px;
+}
+.photo-14 img {
+    width: 200px;
+    height: 300px;
+}
+.photo-15 img {
+    width: 300px;
+    height: 450px;
+}
+
+
+
+
+.tab4 {
+    /* background-color: rgb(250, 215, 242); */
+}
+.tab5 {
+    /* background-color: rgb(250, 215, 215); */
+}
+.tab6 {
+    /* background-color: rgb(248, 250, 215); */
+}
+
+
+
+
+/* Седьмая вкладка Contacts */
+.contacts {
+    /* background-color: rgb(248, 250, 215); */
+    text-align: center;
+    justify-content: center;
+}
+.contacts-img img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.contacts-phrase, .contacts-phone-number {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.vk, .telegram {
+    width: 400px;
+    border-radius: 40px;
+    margin: 10px auto;
+    font-size: 18px;
+    padding: 15px;
+    /* width: 400px; */
+    background-color: #000;
+    color: white;
+}
+.vk i {
+    transform: translateY(-2px);
+}
+
+
+
+
+
+
+/* Скролл вверх */
+.scroll-up {
+    position: fixed;
+    left: 20px;
+    bottom: 70px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: solid 1px rgb(184, 184, 184); */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.30);
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    opacity: 0.8;
+}
+.scroll-up i {
+    margin-top: 20%;
+}
