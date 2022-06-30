@@ -17,7 +17,7 @@
 @media screen and (max-width: 1000px) {
     .slim img {
         display: block;
-        max-width: 250px;
+        max-width: 300px;
         margin: 40px auto;
     }
 }
@@ -35,7 +35,7 @@
 }
 @media screen and (max-width: 1000px) {
     main {
-        margin: 0 60px;
+        margin: 0 20px;
     }
 }
 @media screen and (min-width: 1200px) {

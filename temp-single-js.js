@@ -8,7 +8,7 @@
 $(function(){
 
     $('.some-link').on('click', function(e){
-      $('html,body').stop().animate({ scrollTop: $('#top').offset().top }, 700);
+      $('html,body').stop().animate({ scrollTop: $('#top').offset().top }, 900);
       e.preventDefault();
     });
     
