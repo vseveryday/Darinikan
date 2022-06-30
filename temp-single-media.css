@@ -1,4 +1,20 @@
 @media screen and (max-width: 1000px) {
+    .for-slim {
+        display: block;
+    }
+    .for-wide {
+        display: none;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .for-slim {
+        display: none;
+    }
+    .for-wide {
+        display: block;
+    }
+}
+@media screen and (max-width: 1000px) {
     .slim img {
         display: block;
         max-width: 250px;
@@ -42,6 +58,13 @@
 }
 @media screen and (max-width: 800px) {
     .vk, .telegram {
-        width: 70%;
+        width: 80%;
     }
 }
+@media screen and (max-width: 700px) {
+    .contacts h1 {
+        font-size: 25px;
+    }
+}
+
+
