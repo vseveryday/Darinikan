@@ -24,6 +24,7 @@
 @media screen and (max-width: 1000px) {
     .about-me {
         margin: 0;
+        text-align: justify;
     }
     .about-me h1 {
         text-align: center;
